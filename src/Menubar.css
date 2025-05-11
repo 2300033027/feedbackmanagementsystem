@@ -1,0 +1,49 @@
+.menubar{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.menubar .menuheader{
+    width: 100%;
+    line-height: 36px;
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    float: left;
+
+}
+.menubar .menuheader img{
+    width: 20px;
+    margin: 8px;
+    float: left;
+
+}
+.menuList{
+    background: rgb(160, 158, 146);
+    margin: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    float: left;
+    overflow: auto;
+}
+.menulist ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menulist ul li{
+    margin: 2px;
+    width: calc(100% - 4px);
+    font-weight: bold;
+    line-height: 34px;
+}
+.menulist ul li:hover{
+    cursor: pointer;
+    background: rgb(0, 58, 89);
+}
+.menulist ul li img{
+    width: 20px;
+    margin: 8px;
+    float: left;
+
+}

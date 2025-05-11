@@ -1,0 +1,80 @@
+.dashboard{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display:grid;
+    grid-template-rows: 70px auto;
+    grid-template-columns: 200px auto;
+    gap: 1px;
+}
+
+.dashboard .header{
+    grid-column: 1 / span 2;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(11, 144, 184);
+}
+
+.dashboard .menu{
+    background: rgb(63, 86, 172);
+    border-right: 1px solid rgb(21, 160, 146);
+}
+
+.dashboard .outlet{
+    background: rgb(91, 162, 193);
+}
+
+.header .headerLogo{
+    width: 40px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    top: 15px;
+}
+
+.header .headerTitle{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    top: 20px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(47, 44, 44);
+}
+
+.header .headerTitle span{
+    color: rgb(10, 110, 187);
+}
+
+.header .signOutLogo{
+    position: relative;
+    width: 30px;
+    float: right;
+    margin-right: 12px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.header .signOutLogo{
+    position: relative;
+    width: 30px;
+    float: right;
+    margin-right: 12px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.header .signOutLogo:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+
+.header .userFullName{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    top: 24px;
+    font-size: 16pt;
+    cursor: pointer;
+    color: rgb(4, 97, 114);
+}  
